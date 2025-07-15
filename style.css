@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sec{
+    padding: 10px 5px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.products .card{
+    width: 315px;
+    background: #f5f5f5;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.products .card img{
+    height: 250px;
+    width: 100%;
+}
+.card h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(139, 38, 38);
+}
+.card p{
+    color: rgba(139, 38, 38);
+}
+.products .card .h1{
+    color: rgba(143, 50, 16);
+    padding: 5px 20px;
+    opacity: 0.8;
+}
+
+.products .card .p{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgba(139, 38, 38);
+    padding: 0 20px;
+}
+
+.products .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.products .card .box .price{
+    color: rgba(143, 50, 16);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.products .card .box .btn{
+    font-size: 13px;
+    color: rgba(143, 50, 16);
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px solid rgb(139, 38, 38);
+    border-radius: 10px;
+}
+
+.products .card .box .btn:hover{
+    cursor: pointer;
+    background-color:rgb(139, 38, 38);
+    color: white;
+}
